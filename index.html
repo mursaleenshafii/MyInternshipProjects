@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mursaleen's portfolio</title>
+    <link rel ="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/492fe7ef91.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "header">
+        <div class="container">
+            <nav>
+                <img src ="images/mylogo.jpg" class ="logo" style="width:200px;height:60px;">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fas fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi,I'm <span>Mursaleen</span><br> Shafi from India</p>
+
+            </div>
+        </div>           
+<!--------about------>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="images/myimg4.jpg" >
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                
+                <p>Hi, I'm Mursaleen Shafi.I am currently pursuing B.E. in Computer Science And Engineering from New Horizon College Of Engineering in Bengaluru karntaka.I am into Web development and very good at data structures in java.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web development</span><br>Front-end and Back-end Web development</li>
+                        <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                    </ul>
+                
+                </div>
+                <div class="tab-contents"id="experience">
+                    <ul>
+                        <li><span>2023</span><br>Designed a website like facebook where users could communicate</li>
+                        <li><span>2023</span><br>Internship at Internshala in App Development</li>
+                        <li><span>2021-present</span><br>Traning at New Horizon College Of Engineering</li>
+                        <li><span>2021</span><br>Designed a  mini project in Python called Mask Detector</li>
+                        <li><span>2022</span><br>Designed a  mini project in c called Mananging Juice Orders</li>
+
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018</span><br>Completed my 10th class with 97%</li>
+                        <li><span>2020</span><br>Completed my 12th with 93%</li>
+                        <li><span>2021-present</span><br>B.E in New Horizon College Of Engineering</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!------projects--->
+    <div id="projects">
+        <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+            <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Designed a mini project using  HTML,CSS  JavaScript and MySqlDataBase showing a responsive social media type website with an additional feature where a user can change the theme of the website ,not available in existing social media website.</p>
+                <a href="#">Learn more</a> 
+            </div>
+            <div>
+            <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>Designed a mini project using  python called "Mask Detector" taking input from the camera and showing whether a person in wearing mask or not.</p>
+                <a href="#">Learn more</a> 
+            </div>
+            <div>
+            <i class="fa-solid fa-c"></i>
+                <h2>DSA in C</h2>
+                <p>Designed a mini project using Data Structures like Linked List and Trees called "Booking Juice Order" which manages the orders of customers at a juice store.</p>
+                <a href="#">Learn more</a> 
+            </div>
+            <div>
+            <i class="fa-brands fa-java"></i>
+                <h2>Java</h2>
+                <p>Designed a mini project using Java called "Music Player" which displays and plays music with the help of Swings And Collections.</p>
+                <a href="#">Learn more</a> 
+            </div>
+
+        </div>
+
+        </div>
+    </div>
+    <!------portfolio----->
+    <div id="portfolio">
+        <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you with talented people around the world.Download it from playstore.</p>
+                    <a href="#"><i class="fa-regular fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music Player</h3>
+                    <p>This will help you play the music you love.</p>
+                    <a href="#"><i class="fa-regular fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3> Management of Orders</h3>
+                    <p>Let's you keep track of all the orders in a shop.</p>
+                    <a href="#"><i class="fa-regular fa-link"></i></a>
+                </div>
+            </div>
+            
+            
+        </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-----contact---->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mursaleenshafi38@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>+91xxxxxxxxxx</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf"download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                <form name="'submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name"required>
+                    <input type ="email" name ="Email" placeholder="Your Email" required>
+                    <textarea name="Message"rows="6"placeholder="Your Message"></textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">
+                    
+
+                </span>
+                    </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright c Mursaleen <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+
+
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+        
+
+    }
+</script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwGD1esnUGUmVdZeSd1y_3be7klDSOyxrCpCq3W0QVOEo_2cawszFGSDcng-5WMhJen/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    
+</body>
+</html>
